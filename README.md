@@ -8,8 +8,8 @@
 
 - disp_st12ns1.txt: available data (for training, HPO, evaluation and final model building). The available data contains the 75 attributes and the response variable ("output"). Contains 12 years of data, one instance per day (365-day years).
 - comp_st12ns1.txt: competition data, on which to use the final model to make predictions. This is 2 years of data (one instance per day) with the 75 input variables, but without the response variable.
-- Busqueda_modelo_disp: EDA, hyperparameter setting, model selection... The notebook has explanations of the processes, analysis of the results, justifications of the decisions using tables and graphs.
-- Prediccion_final_comp: loads the final model and usee it to make predictions on the competition data.
+- Busqueda_modelo_disp.ipynb: EDA, hyperparameter setting, model selection... The notebook has explanations of the processes, analysis of the results, justifications of the decisions using tables and graphs.
+- Prediccion_final_comp.ipynb: loads the final model and use it to make predictions on the competition data.
 - modelo_final.pkl: is the file that contains the final model.
 - predicciones: is the file that contains the predictions.
 
